@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/XshubhamG/Order-summary-card.git)
+- Live Site URL: [Netlify](https://jovial-chebakia-a6e237.netlify.app)
 
 ## My process
 
