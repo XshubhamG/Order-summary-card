@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-align: center;
+}
+
+:root {
+    --bg-main :  hsl(225, 100%, 94%);
+    --bg-card :  hsl(225, 100%, 98%);
+    --blue-dark : hsl(245, 75%, 52%);
+    --blue-light :  hsl(224, 23%, 55%);
+    --blue-extra-dark : hsl(223, 47%, 23%); 
+}
+
+body {
+    height: 100vh;
+    background-color: var(--bg-main);
+    display: grid;
+    place-items: center;
+    font-family: 'Red hat Display', sans-serif;
+
+}
+
+a {
+    color: var(--blue-dark);
+    font-size: 0.8em;
+    font-weight: 900;
+}
+
+a:hover {
+    transition: all 400ms ease-in;
+    color: var(--blue-extra-dark);
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 85%;
+    max-width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: var(--bg-card);
+    color: var(--blue-light);
+    
+}
+
+picture img {
+    width: 100%;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+    gap: 1em;
+}
+
+section h3 {
+    font-weight: 900;
+    color: var(--blue-extra-dark);
+}
+
+section p {
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.price__tag {
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 239, 251);
+    padding: 0.5em 0.7em;
+    border-radius: 10px;
+}
+
+.price__tag img {
+    width: 40px;
+}
+
+.price {
+    font-size:.8em;
+}
+
+.price span:nth-of-type(1) {
+    font-weight: 900;
+    color: var(--blue-extra-dark);
+}
+
+.payment__btn {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--blue-dark);
+    color: white;
+    font-weight: 700;
+    padding: 1em 2em;
+    box-shadow: 0 0 10px var(--blue-dark);
+}
+
+.cancel__btn {
+    border: none;
+    color: rgb(91, 89, 89);
+    font-weight: 700;
+    padding: 1em 2em;
+    border-radius: 10px;
+}
